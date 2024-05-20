@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="epub-id-1" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
-  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-    <dc:identifier id="epub-id-1">urn:uuid:fc4393be-10d0-4c20-98f6-70bfa305cba3</dc:identifier>
-    <dc:date id="epub-date">2024-03-26T23:45:35Z</dc:date>
-    <dc:language>en-US</dc:language>
-    <meta property="dcterms:modified">2024-03-26T23:45:35Z</meta>
-    <meta name="cover" content="cover_image"/>
-  </metadata>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+  <dc:identifier id="epub-id-1">urn:uuid:fc4393be-10d0-4c20-98f6-70bfa305cba3</dc:identifier>
+  <dc:date id="epub-date">2024-03-26T23:45:35Z</dc:date>
+  <dc:language>en-US</dc:language>
+  <dc:title id="book-title">Encounters: A Higher Dimension in Consciousness</dc:title> <!-- Add this line -->
+  <dc:creator id="book-author">Bir Krishna Goswami</dc:creator> <!-- Add this line -->
+  <meta property="dcterms:modified">2024-03-26T23:45:35Z</meta>
+  <meta name="cover" content="cover_image"/>
+</metadata>
   <manifest>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav" />
@@ -20,6 +22,6 @@
     <itemref idref="ch001_xhtml" />
   </spine>
   <guide>
-    <reference type="toc" title="UNTITLED" href="nav.xhtml" />
+    <reference type="toc" title="Encounters" href="nav.xhtml" />
   </guide>
 </package>
